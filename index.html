@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="calculator">
+        <h1><span>Age Calculator</span></h1>
+        <div class="input-box">
+            <input type="date" id="date">
+            <button onclick="calculateAge()">Calculate Age</button>
+        </div>
+        <div id="results">
+            <p id="age-result"></p>
+            <p id="birthday-countdown"></p>
+            <canvas id="ageChart" width="400" height="400" style="display:none;"></canvas>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
